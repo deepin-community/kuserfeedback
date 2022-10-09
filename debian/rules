@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+%:
+	dh $@ --with kf5,pkgkde_symbolshelper --buildsystem kf5 --without build_stamp
+
+override_dh_auto_configure-arch:
+	dh_auto_configure -- -DENABLE_DOCS=OFF
+
+override_dh_auto_configure-indep:
+	dh_auto_configure -- -DENABLE_DOCS=ON
+
+override_dh_auto_test:
+	xvfb-run dh_auto_test --no-parallel

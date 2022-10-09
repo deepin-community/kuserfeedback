@@ -1,0 +1,561 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-10-02 12:26+0000\n"
+"Last-Translator: Kaan <kaanozdincer@gmail.com>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-Qt-Contexts: true\n"
+"X-POOTLE-MTIME: 1502201718.000000\n"
+
+#: core/applicationversionsource.cpp:38
+msgctxt "KUserFeedback::ApplicationVersionSource|"
+msgid "The version of the application."
+msgstr "Uygulamanın sürümü"
+
+#: core/applicationversionsource.cpp:53
+msgctxt "KUserFeedback::ApplicationVersionSource|"
+msgid "Application version"
+msgstr ""
+
+#: core/auditloguicontroller.cpp:157
+msgctxt "KUserFeedback::AuditLogUiController|"
+msgid "Basic System Information"
+msgstr "Temel Sistem Bilgisi"
+
+#: core/auditloguicontroller.cpp:159
+msgctxt "KUserFeedback::AuditLogUiController|"
+msgid "Basic Usage Statistics"
+msgstr "Temel Kullanım İstatistikleri"
+
+#: core/auditloguicontroller.cpp:161
+msgctxt "KUserFeedback::AuditLogUiController|"
+msgid "Detailed System Information"
+msgstr "Ayrıntılı Sistem Bilgileri"
+
+#: core/auditloguicontroller.cpp:163
+msgctxt "KUserFeedback::AuditLogUiController|"
+msgid "Detailed Usage Statistics"
+msgstr "Ayrıntılı Kullanım İstatistikleri"
+
+#: core/auditloguicontroller.cpp:173
+#, qt-format
+msgctxt "KUserFeedback::AuditLogUiController|"
+msgid "Unable to open file %1: %2."
+msgstr "%1 dosya açılamıyor: %2."
+
+#: core/auditloguicontroller.cpp:213
+#, qt-format
+msgctxt "KUserFeedback::AuditLogUiController|"
+msgid "Category: <i>%1</i><br/>"
+msgstr "Kategori: <i>%1</i><br/>"
+
+#: core/auditloguicontroller.cpp:214
+#, qt-format
+msgctxt "KUserFeedback::AuditLogUiController|"
+msgid "Key: <i>%1</i><br/>"
+msgstr "Anahtar: <i>%1</i><br/>"
+
+#: core/auditloguicontroller.cpp:215
+#, qt-format
+msgctxt "KUserFeedback::AuditLogUiController|"
+msgid "Submitted data: <tt>%1</tt><br/><br/>"
+msgstr "Gönderilen veri: <tt>%1</tt><br/><br/>"
+
+#: core/compilerinfosource.cpp:37
+msgctxt "KUserFeedback::CompilerInfoSource|"
+msgid "The compiler used to build this application."
+msgstr "Bu uygulamanın derlenmesi için kullanılan derleyici."
+
+#: core/compilerinfosource.cpp:70
+#, fuzzy
+#| msgctxt "KUserFeedback::AuditLogUiController|"
+#| msgid "Detailed System Information"
+msgctxt "KUserFeedback::CompilerInfoSource|"
+msgid "Compiler information"
+msgstr "Ayrıntılı Sistem Bilgileri"
+
+#: core/cpuinfosource.cpp:39
+msgctxt "KUserFeedback::CpuInfoSource|"
+msgid "The amount and type of CPUs in the system."
+msgstr "Sistemdeki CPU türü ve sayısı."
+
+#: core/cpuinfosource.cpp:52
+#, fuzzy
+#| msgctxt "KUserFeedback::AuditLogUiController|"
+#| msgid "Basic System Information"
+msgctxt "KUserFeedback::CpuInfoSource|"
+msgid "CPU information"
+msgstr "Temel Sistem Bilgisi"
+
+#: core/feedbackconfiguicontroller.cpp:136
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Disabled"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:138
+#, fuzzy
+#| msgctxt "KUserFeedback::AuditLogUiController|"
+#| msgid "Basic System Information"
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Basic system information"
+msgstr "Temel Sistem Bilgisi"
+
+#: core/feedbackconfiguicontroller.cpp:140
+#, fuzzy
+#| msgctxt "KUserFeedback::AuditLogUiController|"
+#| msgid "Basic System Information"
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Basic system information and usage statistics"
+msgstr "Temel Sistem Bilgisi"
+
+#: core/feedbackconfiguicontroller.cpp:142
+#, fuzzy
+#| msgctxt "KUserFeedback::AuditLogUiController|"
+#| msgid "Detailed System Information"
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Detailed system information and basic usage statistics"
+msgstr "Ayrıntılı Sistem Bilgileri"
+
+#: core/feedbackconfiguicontroller.cpp:144
+#, fuzzy
+#| msgctxt "KUserFeedback::AuditLogUiController|"
+#| msgid "Detailed System Information"
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Detailed system information and usage statistics"
+msgstr "Ayrıntılı Sistem Bilgileri"
+
+#: core/feedbackconfiguicontroller.cpp:156
+#: core/feedbackconfiguicontroller.cpp:179
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Don't share anything"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:160
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share basic system information such as the version of the application and "
+"the operating system"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:164
+#, fuzzy
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid ""
+#| "Share basic system information and basic statistics on how often you use "
+#| "%1. No unique identification is included, nor data processed with %1."
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share basic system information and basic statistics on how often you use the "
+"application"
+msgstr ""
+"Teme sistem bilgisini ve %1 kullanım sıklığı bilginizi paylaşın. Teme sistem "
+"bilgisini paylaşın. Hiçbir tekil tanımlayıcı buna dahil değildir ve %1 ile "
+"işlenmiş bir veri alınmaz."
+
+#: core/feedbackconfiguicontroller.cpp:168
+#, fuzzy
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid ""
+#| "Share basic statistics on how often you use the application, as well as "
+#| "detailed information about your system. No unique identification is "
+#| "included, nor data processed with the application."
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share basic statistics on how often you use the application, as well as more "
+"detailed information about your system"
+msgstr ""
+"Uygulamayı ne sıklıkla ve nasıl kullandığınınız ile ilgili ayırıntılı "
+"bilgileri paylaşın. Hiçbir tekil tanımlayıcı buna dahil değildir ve işlenmiş "
+"bir uygulama verisi alınmaz."
+
+#: core/feedbackconfiguicontroller.cpp:172
+#, fuzzy
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid ""
+#| "Share detailed system information and statistics on how often individual "
+#| "features of %1 are used. No unique identification is included, nor data "
+#| "processed with %1."
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share detailed system information and statistics on how often individual "
+"features of the application are used."
+msgstr ""
+"Detaylı kullanım bilgisini ve %1 özelliklerini ne kadar sıklıkla "
+"kullandığınızın bilgisini paylaşın. Teme sistem bilgisini paylaşın. Hiçbir "
+"tekil tanımlayıcı buna dahil değildir ve %1 ile işlenmiş bir veri alınmaz."
+
+#: core/feedbackconfiguicontroller.cpp:183
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share basic system information such as the version of %1 and and the "
+"operating system"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:187
+#, fuzzy, qt-format
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid ""
+#| "Share basic system information and basic statistics on how often you use "
+#| "%1. No unique identification is included, nor data processed with %1."
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share basic system information and basic statistics on how often you use %1"
+msgstr ""
+"Teme sistem bilgisini ve %1 kullanım sıklığı bilginizi paylaşın. Teme sistem "
+"bilgisini paylaşın. Hiçbir tekil tanımlayıcı buna dahil değildir ve %1 ile "
+"işlenmiş bir veri alınmaz."
+
+#: core/feedbackconfiguicontroller.cpp:191
+#, fuzzy, qt-format
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid ""
+#| "Share basic statistics on how often you use %1, as well as detailed "
+#| "information about your system. No unique identification is included, nor "
+#| "data processed with %1."
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share basic statistics on how often you use %1, as well as more detailed "
+"information about your system"
+msgstr ""
+"%1 kullanım sıklığının temel istatistiğini ve detaylı sistem bilgisini "
+"paylaşın. Teme sistem bilgisini paylaşın. Hiçbir tekil tanımlayıcı buna "
+"dahil değildir ve %1 ile işlenmiş bir veri alınmaz."
+
+#: core/feedbackconfiguicontroller.cpp:195
+#, fuzzy, qt-format
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid ""
+#| "Share detailed system information and statistics on how often individual "
+#| "features of %1 are used. No unique identification is included, nor data "
+#| "processed with %1."
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share detailed system information and statistics on how often individual "
+"features of %1 are used."
+msgstr ""
+"Detaylı kullanım bilgisini ve %1 özelliklerini ne kadar sıklıkla "
+"kullandığınızın bilgisini paylaşın. Teme sistem bilgisini paylaşın. Hiçbir "
+"tekil tanımlayıcı buna dahil değildir ve %1 ile işlenmiş bir veri alınmaz."
+
+#: core/feedbackconfiguicontroller.cpp:248
+#, fuzzy
+#| msgctxt "KUserFeedback::FeedbackConfigWidget|"
+#| msgid "Participate in Surveys"
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Don't participate in usability surveys"
+msgstr "Anketlere Katılın"
+
+#: core/feedbackconfiguicontroller.cpp:252
+#, fuzzy
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid ""
+#| "I will occasionally participate in web surveys about the application, not "
+#| "more than four times a year though."
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Participate in surveys about the application not more than four times a year"
+msgstr "Dört yıldan fazla olmamak şartıyla, web anketlerine katılacağım."
+
+#: core/feedbackconfiguicontroller.cpp:256
+#, fuzzy
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid ""
+#| "I will participate in web surveys about %1 whenever one is available. "
+#| "Surveys can of course be deferred or skipped."
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Participate in surveys about the application whenever one is available (they "
+"can be deferred or skipped)"
+msgstr ""
+"%1 hakkındaki web anketleri kullanılabilir olduğu sürece katılacağım. Tabii "
+"ki anketler, ertelenebilir ve atlanabilirdir."
+
+#: core/feedbackconfiguicontroller.cpp:263
+#, fuzzy, qt-format
+#| msgctxt "KUserFeedback::FeedbackConfigWidget|"
+#| msgid "Participate in Surveys"
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Don't participate in usability surveys about %1"
+msgstr "Anketlere Katılın"
+
+#: core/feedbackconfiguicontroller.cpp:267
+#, fuzzy, qt-format
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid ""
+#| "I will occasionally participate in web surveys about %1, not more than "
+#| "four times a year though."
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Participate in surveys about %1 not more than four times a year"
+msgstr ""
+"Dört yıldan fazla olmamak şartıyla, %1 hakkındaki web anketlerine "
+"katılacağım."
+
+#: core/feedbackconfiguicontroller.cpp:271
+#, fuzzy, qt-format
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid ""
+#| "I will participate in web surveys about %1 whenever one is available. "
+#| "Surveys can of course be deferred or skipped."
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Participate in surveys about %1 whenever one is available (they can be "
+"deferred or skipped)"
+msgstr ""
+"%1 hakkındaki web anketleri kullanılabilir olduğu sürece katılacağım. Tabii "
+"ki anketler, ertelenebilir ve atlanabilirdir."
+
+#: core/localeinfosource.cpp:38
+msgctxt "KUserFeedback::LocaleInfoSource|"
+msgid "The current region and language settings."
+msgstr "Mevcut bölge ve dil ayarları."
+
+#: core/localeinfosource.cpp:52
+#, fuzzy
+#| msgctxt "KUserFeedback::AuditLogUiController|"
+#| msgid "Basic System Information"
+msgctxt "KUserFeedback::LocaleInfoSource|"
+msgid "Locale information"
+msgstr "Temel Sistem Bilgisi"
+
+#: core/openglinfosource.cpp:44
+msgctxt "KUserFeedback::OpenGLInfoSource|"
+msgid "Information about type, version and vendor of the OpenGL stack."
+msgstr "Tür, sürüm ve OpenGL yığını sağlayıcısının bilgisi."
+
+#: core/openglinfosource.cpp:110
+#, fuzzy
+#| msgctxt "KUserFeedback::AuditLogUiController|"
+#| msgid "Basic System Information"
+msgctxt "KUserFeedback::OpenGLInfoSource|"
+msgid "OpenGL information"
+msgstr "Temel Sistem Bilgisi"
+
+#: core/platforminfosource.cpp:38
+msgctxt "KUserFeedback::PlatformInfoSource|"
+msgid "Type and version of the operating system."
+msgstr "İşletim sisteminin türü ve sürümü."
+
+#: core/platforminfosource.cpp:75
+#, fuzzy
+#| msgctxt "KUserFeedback::AuditLogUiController|"
+#| msgid "Basic System Information"
+msgctxt "KUserFeedback::PlatformInfoSource|"
+msgid "Platform information"
+msgstr "Temel Sistem Bilgisi"
+
+#: core/qpainfosource.cpp:38
+msgctxt "KUserFeedback::QPAInfoSource|"
+msgid "The Qt platform abstraction plugin."
+msgstr "Qt platformu soyutlama eklentisi."
+
+#: core/qpainfosource.cpp:50
+#, fuzzy
+#| msgctxt "KUserFeedback::AuditLogUiController|"
+#| msgid "Basic System Information"
+msgctxt "KUserFeedback::QPAInfoSource|"
+msgid "QPA information"
+msgstr "Temel Sistem Bilgisi"
+
+#: core/qtversionsource.cpp:37
+msgctxt "KUserFeedback::QtVersionSource|"
+msgid "The Qt version used by this application."
+msgstr "Bu ugulama tarafından kullanılan Qt sürümü."
+
+#: core/qtversionsource.cpp:49
+#, fuzzy
+#| msgctxt "KUserFeedback::AuditLogUiController|"
+#| msgid "Detailed System Information"
+msgctxt "KUserFeedback::QtVersionSource|"
+msgid "Qt version information"
+msgstr "Ayrıntılı Sistem Bilgileri"
+
+#: core/screeninfosource.cpp:39
+msgctxt "KUserFeedback::ScreenInfoSource|"
+msgid "Size and resolution of all connected screens."
+msgstr "Tüm bağlı ekranları boyutu ve çözünürlüğü."
+
+#: core/screeninfosource.cpp:57
+msgctxt "KUserFeedback::ScreenInfoSource|"
+msgid "Screen parameters"
+msgstr ""
+
+#: core/startcountsource.cpp:48
+msgctxt "KUserFeedback::StartCountSource|"
+msgid "How often the application has been started."
+msgstr "Uygulamanın ne sıklıkla başlatıldığı."
+
+#: core/startcountsource.cpp:63
+msgctxt "KUserFeedback::StartCountSource|"
+msgid "Launches count"
+msgstr ""
+
+#: core/usagetimesource.cpp:48
+msgctxt "KUserFeedback::UsageTimeSource|"
+msgid "The total amount of time the application has been used."
+msgstr "Uygulamanın toplamda ne kadar kullanıldığı."
+
+#: core/usagetimesource.cpp:63
+msgctxt "KUserFeedback::UsageTimeSource|"
+msgid "Usage time"
+msgstr ""
+
+#: widgets/auditlogbrowserdialog.cpp:45
+msgctxt "KUserFeedback::AuditLogBrowserDialog|"
+msgid "Delete Log"
+msgstr "Günlüğü Sil"
+
+#: widgets/auditlogbrowserdialog.ui:14
+msgctxt "KUserFeedback::AuditLogBrowserDialog|"
+msgid "Dialog"
+msgstr "Pencere"
+
+#: widgets/auditlogbrowserdialog.ui:22
+msgctxt "KUserFeedback::AuditLogBrowserDialog|"
+msgid "Da&ta Submission:"
+msgstr "Ve&ri Gönderimi:"
+
+#: widgets/feedbackconfigdialog.cpp:49
+msgctxt "KUserFeedback::FeedbackConfigDialog|"
+msgid "Contribute!"
+msgstr "Katkıda Bulunun!"
+
+#: widgets/feedbackconfigdialog.cpp:50
+msgctxt "KUserFeedback::FeedbackConfigDialog|"
+msgid "No, I do not want to contribute."
+msgstr "Hayır, katkıda bulunmak istemiyorum."
+
+#: widgets/feedbackconfigdialog.ui:14
+msgctxt "KUserFeedback::FeedbackConfigDialog|"
+msgid "Feedback Settings"
+msgstr "Geri Bildirim Ayarları"
+
+#: widgets/feedbackconfigwidget.ui:17
+#, fuzzy
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid ""
+#| "We make %1 for you. You can help us improve it by contributing "
+#| "information on how you use it. This allows us to make sure we focus on "
+#| "things that matter to you.\n"
+#| "Contributing statistics is of course entirely anonymous, will not use any "
+#| "kind of unique identifier and will not cover any data you process with %1."
+msgctxt "KUserFeedback::FeedbackConfigWidget|"
+msgid ""
+"You can help the development of this software by contributing information on "
+"how you use it, so the developers can focus on things that matter to you. "
+"Contributing this information is optional and entirely anonymous. We never "
+"collect your personal data, files you use, websites you visit, or "
+"information that could identify you."
+msgstr ""
+"%1 uygulamasını sizin için yaptık. Nasıl kullanacağınıza ilişki bilgileri "
+"bize sağlayarak, iyileştirmelere yardımcı olabilirsiniz. Bu, sizin için "
+"önemli olan şeylere odaklanmamı sağlar.\n"
+"Katkıda bulunulan istatistikler tamamen gizlidir ve herhangi bir teki "
+"tanımlayıcı kullanılmayacaktır, %1 ile işlenmiş bir uygulama verisi alınmaz."
+
+#: widgets/feedbackconfigwidget.ui:33
+msgctxt "KUserFeedback::FeedbackConfigWidget|"
+msgid "Contribute Statistics"
+msgstr "İstatistiklere Katkıda Bulunun"
+
+#: widgets/feedbackconfigwidget.ui:107
+msgctxt "KUserFeedback::FeedbackConfigWidget|"
+msgid "TextLabel"
+msgstr "MetinEtiketi"
+
+#: widgets/feedbackconfigwidget.ui:124
+msgctxt "KUserFeedback::FeedbackConfigWidget|"
+msgid "Show the raw data that is going to be shared."
+msgstr "Paylaşılacak olan işlenmemiş veriyi göster."
+
+#: widgets/feedbackconfigwidget.ui:137
+msgctxt "KUserFeedback::FeedbackConfigWidget|"
+msgid "<a href=\"auditLog\">View previously submitted data...</a>"
+msgstr "<a href=\"auditLog\">Önceden gönderilen verileri görüntüle...</a>"
+
+#: widgets/feedbackconfigwidget.ui:150
+msgctxt "KUserFeedback::FeedbackConfigWidget|"
+msgid "Participate in Surveys"
+msgstr "Anketlere Katılın"
+
+#: widgets/notificationpopup.cpp:84
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid "Help us make this application better!"
+msgstr "Bu uygulamayı daha iyi hale getirmemize yardımcı olun!"
+
+#: widgets/notificationpopup.cpp:85
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid ""
+"You can help us improving this application by sharing statistics and "
+"participate in surveys."
+msgstr ""
+"İstatistikleri paylaşarak ve anketlere katılarak bu uygulamanın "
+"geliştirilmesine yardımcı olabilirsiniz."
+
+#: widgets/notificationpopup.cpp:87
+#, qt-format
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid "Help us make %1 better!"
+msgstr "%1 uygulamasını daha iyi hale getirmemize yardımcı olun!"
+
+#: widgets/notificationpopup.cpp:88
+#, qt-format
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid ""
+"You can help us improving %1 by sharing statistics and participate in "
+"surveys."
+msgstr ""
+"İstatistikleri paylaşarak ve anketlere katılarak %1 uygulamasını "
+"geliştirmemize yardımcı olun."
+
+#: widgets/notificationpopup.cpp:90
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid "Contribute..."
+msgstr "Katıda Bulun..."
+
+#: widgets/notificationpopup.cpp:101
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid "We are looking for your feedback!"
+msgstr "Geri bildirimlerinizi bekliyoruz!"
+
+#: widgets/notificationpopup.cpp:103
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid ""
+"We would like a few minutes of your time to provide feedback about this "
+"application in a survey."
+msgstr ""
+"Bir ankette bu uygulama hakkında geri bildirim sağlamak için birkaç "
+"dakikanızı ayırmamızı istiyoruz."
+
+#: widgets/notificationpopup.cpp:105
+#, qt-format
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid ""
+"We would like a few minutes of your time to provide feedback about %1 in a "
+"survey."
+msgstr ""
+"Bir ankette %1 hakkında geri bildirim sağlamak için birkaç dakikanızı "
+"ayırmamızı istiyoruz."
+
+#: widgets/notificationpopup.cpp:106
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid "Participate"
+msgstr "Katılın"
+
+#: widgets/styleinfosource.cpp:40
+msgctxt "KUserFeedback::StyleInfoSource|"
+msgid ""
+"The widget style used by the application, and information about the used "
+"color scheme."
+msgstr ""
+"Uygulama tarafından kullanılacak olan programcık biçimi ve renk şeması "
+"bilgisi."
+
+#: widgets/styleinfosource.cpp:54
+msgctxt "KUserFeedback::StyleInfoSource|"
+msgid "Application style"
+msgstr ""

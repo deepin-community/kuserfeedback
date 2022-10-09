@@ -1,0 +1,4 @@
+usr/bin/UserFeedbackConsole
+usr/bin/userfeedbackctl
+usr/share/applications/UserFeedbackConsole.desktop
+usr/share/locale/*/LC_MESSAGES/userfeedbackconsole5_qt.qm

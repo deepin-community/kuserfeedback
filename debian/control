@@ -1,0 +1,139 @@
+Source: kuserfeedback
+Section: libs
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Scarlett Moore <sgmoore@kde.org>, Sandro Knauß <hefee@debian.org>
+Build-Depends: bison,
+               cmake (>= 3.0~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.51.0~),
+               flex,
+               libqt5charts5-dev,
+               libqt5svg5-dev,
+               pkg-kde-tools (>= 0.15.15ubuntu1~),
+               qtbase5-dev (>= 5.8.0~),
+               qtdeclarative5-dev,
+               qtdeclarative5-dev-tools,
+               qttools5-dev,
+               qttools5-dev-tools (>= 5.4),
+               xauth,
+               xvfb,
+Build-Depends-Indep: qdoc-qt5,
+Rules-Requires-Root: no
+Standards-Version: 4.5.0
+Homepage: https://invent.kde.org/libraries/kuserfeedback
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/extras/kuserfeedback
+Vcs-Git: https://salsa.debian.org/qt-kde-team/extras/kuserfeedback.git
+
+Package: kuserfeedback-bin
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: user feedback for applications - executables
+ Framework for collecting user feedback for applications via telemetry
+ and surveys.
+ .
+ Telemetry
+  * Extensible set of data sources for telemetry.
+  * Full control for the user on what data to contribute.
+ Surveys
+  * Distribute surveys and offer users to participate in them.
+  * Survey targeting based on telemetry data.
+  * Allow the user to configure how often they want to participate in surveys.
+ .
+ This package contains the management and analytics applications.
+
+Package: kuserfeedback-dev
+Section: libdevel
+Architecture: any
+Depends: libkuserfeedbackcore1 (= ${binary:Version}),
+         libkuserfeedbackwidgets1 (= ${binary:Version}),
+         qtbase5-dev,
+         ${misc:Depends},
+Description: development files for KUserFeedback
+ Framework for collecting user feedback for applications via telemetry
+ and surveys.
+ .
+ Telemetry
+  * Extensible set of data sources for telemetry.
+  * Full control for the user on what data to contribute.
+ Surveys
+  * Distribute surveys and offer users to participate in them.
+  * Survey targeting based on telemetry data.
+  * Allow the user to configure how often they want to participate in surveys.
+ .
+ This package contains the development header files for kuserfeedback.
+
+Package: kuserfeedback-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Section: doc
+Description: user feedback for applications - documentation
+ Framework for collecting user feedback for applications via telemetry
+ and surveys.
+ .
+ Telemetry
+  * Extensible set of data sources for telemetry.
+  * Full control for the user on what data to contribute.
+ Surveys
+  * Distribute surveys and offer users to participate in them.
+  * Survey targeting based on telemetry data.
+  * Allow the user to configure how often they want to participate in surveys.
+ .
+ This package contains the documentation for kuserfeedback.
+
+Package: libkuserfeedbackcore1
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: kuserfeedback-doc (= ${binary:Version})
+Description: user feedback for applications - core library
+ Framework for collecting user feedback for applications via telemetry
+ and surveys.
+ .
+ Telemetry
+  * Extensible set of data sources for telemetry.
+  * Full control for the user on what data to contribute.
+ Surveys
+  * Distribute surveys and offer users to participate in them.
+  * Survey targeting based on telemetry data.
+  * Allow the user to configure how often they want to participate in surveys.
+ .
+ This package contains the core library for kuserfeedback.
+
+Package: libkuserfeedbackwidgets1
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: qml-module-org-kde-userfeedback (= ${binary:Version})
+Description: user feedback for applications - widgets library
+ Framework for collecting user feedback for applications via telemetry
+ and surveys.
+ .
+ Telemetry
+  * Extensible set of data sources for telemetry.
+  * Full control for the user on what data to contribute.
+ Surveys
+  * Distribute surveys and offer users to participate in them.
+  * Survey targeting based on telemetry data.
+  * Allow the user to configure how often they want to participate in surveys.
+ .
+ This package contains the widgets library used by kuserfeedback.
+
+Package: qml-module-org-kde-userfeedback
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: user feedback for applications - QML module
+ Framework for collecting user feedback for applications via telemetry
+ and surveys.
+ .
+ Telemetry
+  * Extensible set of data sources for telemetry.
+  * Full control for the user on what data to contribute.
+ Surveys
+  * Distribute surveys and offer users to participate in them.
+  * Survey targeting based on telemetry data.
+  * Allow the user to configure how often they want to participate in surveys.
+ .
+ This package contains the QML module for kuserfeedback.

@@ -1,0 +1,3 @@
+etc/xdg/org_kde_UserFeedback.categories
+usr/lib/*/libKUserFeedbackCore.so.1*
+usr/share/locale/*/LC_MESSAGES/userfeedbackprovider5_qt.qm

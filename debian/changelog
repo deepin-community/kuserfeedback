@@ -1,0 +1,77 @@
+kuserfeedback (1.0.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Build the documentation only in -indep builds:
+    - pass -DENABLE_DOCS=OFF to cmake in dh_auto_configure of -arch builds
+    - pass -DENABLE_DOCS=ON to cmake in dh_auto_configure of -indep builds
+    - move qdoc-qt5 as Build-Depends-Indep
+    - drop the -DBUILD_QCH=ON cmake parameter, as it does not exist
+  * Remove the unused doxygen build dependency.
+  * Remove the unused debian/meta/ stuff.
+
+ -- Pino Toscano <pino@debian.org>  Tue, 27 Oct 2020 21:38:10 +0100
+
+kuserfeedback (1.0.0-2) unstable; urgency=medium
+
+  [ Sandro Knauß ]
+  * Add qdoc-qt5 to B-D needed for archs without qtdoc-qt5 dependency
+    inside qttools5-dev-tools.
+
+ -- Sandro Knauß <hefee@debian.org>  Thu, 22 Oct 2020 11:02:51 +0200
+
+kuserfeedback (1.0.0-1) unstable; urgency=medium
+
+  [ Scarlett Moore ]
+  * Remove libkuserfeedbackcore1.maintscript as this package
+    is NEW and will not have dangling maint scripts.
+  * Bump the debhelper compatibility to 13:
+    - switch the debhelper build dependency to debhelper-compat 13
+    - remove debian/compat
+  * Bump Standards-Version to 4.5.0, no changes required.
+  * Add Salsa CI config with team builder enabled.
+  * Update copyright file.
+    - Add missing copyright.
+    - Add Upstream-name, Upstream-Contact fields.
+    - Fix Source to point to invent.kde.org repo.
+  * Update Rules file.
+    - Fix dh call to use symbols helper and kf5 buildsystem.
+    - Remove defunkt qtselect export. Qt4 is no more.
+    - Add hardening options to build maint export.
+  * Update Maintainer to be debian-qt-kde team.
+  * Add myself to uploaders.
+  * Fix the control file entries.
+    - kuserfeedback-bin: fix Multi-Arch to any, it is binaries.
+      Remove section: doc as it is not docs. Fix multi-Arch to same.
+      Improve the long description.
+    - libkuserfeebackcore1: remove breaks/replace ( neon merge. ).
+      Improve long description.
+    - libkuserfeebackwidgets: remove breaks/replace ( neon merge. ).
+      Improve long description.
+    - qml-module-org-kde-userfeedback:
+      Improve long description.
+    - kuserfeedback-doc:
+      Improve long description.
+    - kuserfeedback-dev:
+      Improve long descriptions.
+  * Add VSC git entries.
+  * Update homepage links to invent.
+
+  [ Sandro Knauß ]
+  * Add Rules-Requires-Root field to control.
+  * Set upstream metadata fields: Repository, Repository-Browse.
+  * Enable running autotests.
+  * Update copyright file.
+  * kuserfeedback-bin is not Multi-Arch same compatible.
+  * Fill upstream metadata.
+  * Add symbols files.
+  * Add Build-Depends-Package to symbols file.
+  * Initial Debian release. (Closes: #970433)
+  * Add myself to Uploaders.
+
+ -- Sandro Knauß <hefee@debian.org>  Wed, 16 Sep 2020 12:53:13 +0200
+
+kuserfeedback (1.0.0-0) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 11 Aug 2019 18:49:14 +0000

@@ -1,0 +1,439 @@
+# Frederik Schwarzer <schwarzer@kde.org>, 2018.
+# Burkhard Lück <lueck@hube-lueck.de>, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"PO-Revision-Date: 2019-08-19 14:07+0200\n"
+"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 18.12.3\n"
+
+#: core/applicationversionsource.cpp:38
+msgctxt "KUserFeedback::ApplicationVersionSource|"
+msgid "The version of the application."
+msgstr "Die Version der Anwendung."
+
+#: core/applicationversionsource.cpp:53
+msgctxt "KUserFeedback::ApplicationVersionSource|"
+msgid "Application version"
+msgstr "Anwendungsversion"
+
+#: core/auditloguicontroller.cpp:157
+msgctxt "KUserFeedback::AuditLogUiController|"
+msgid "Basic System Information"
+msgstr "Grundlegende Systeminformationen"
+
+#: core/auditloguicontroller.cpp:159
+msgctxt "KUserFeedback::AuditLogUiController|"
+msgid "Basic Usage Statistics"
+msgstr "Grundlegende Gebrauchsstatistik"
+
+#: core/auditloguicontroller.cpp:161
+msgctxt "KUserFeedback::AuditLogUiController|"
+msgid "Detailed System Information"
+msgstr "Detaillierte Systeminformationen"
+
+#: core/auditloguicontroller.cpp:163
+msgctxt "KUserFeedback::AuditLogUiController|"
+msgid "Detailed Usage Statistics"
+msgstr "Detaillierte Gebrauchsstatistik"
+
+#: core/auditloguicontroller.cpp:173
+#, qt-format
+msgctxt "KUserFeedback::AuditLogUiController|"
+msgid "Unable to open file %1: %2."
+msgstr "Die Datei %1 kann nicht geöffnet werden: %2."
+
+#: core/auditloguicontroller.cpp:213
+#, qt-format
+msgctxt "KUserFeedback::AuditLogUiController|"
+msgid "Category: <i>%1</i><br/>"
+msgstr "Kategorie: <i>%1</i><br/>"
+
+#: core/auditloguicontroller.cpp:214
+#, qt-format
+msgctxt "KUserFeedback::AuditLogUiController|"
+msgid "Key: <i>%1</i><br/>"
+msgstr "Schlüssel: <i>%1</i><br/>"
+
+#: core/auditloguicontroller.cpp:215
+#, qt-format
+msgctxt "KUserFeedback::AuditLogUiController|"
+msgid "Submitted data: <tt>%1</tt><br/><br/>"
+msgstr "Übertragene Daten: <tt>%1</tt><br/><br/>"
+
+#: core/compilerinfosource.cpp:37
+msgctxt "KUserFeedback::CompilerInfoSource|"
+msgid "The compiler used to build this application."
+msgstr "Der Compiler für das kompilieren dieser Anwendung."
+
+#: core/compilerinfosource.cpp:70
+msgctxt "KUserFeedback::CompilerInfoSource|"
+msgid "Compiler information"
+msgstr "Compiler-Information"
+
+#: core/cpuinfosource.cpp:39
+msgctxt "KUserFeedback::CpuInfoSource|"
+msgid "The amount and type of CPUs in the system."
+msgstr "Die Anzahl und Art der CPUs in diesem System."
+
+#: core/cpuinfosource.cpp:52
+msgctxt "KUserFeedback::CpuInfoSource|"
+msgid "CPU information"
+msgstr "Prozessor-Information"
+
+#: core/feedbackconfiguicontroller.cpp:136
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Disabled"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:138
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Basic system information"
+msgstr "Grundlegende Systeminformationen"
+
+#: core/feedbackconfiguicontroller.cpp:140
+#, fuzzy
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid "Basic system information"
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Basic system information and usage statistics"
+msgstr "Grundlegende Systeminformationen"
+
+#: core/feedbackconfiguicontroller.cpp:142
+#, fuzzy
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid "Detailed system information"
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Detailed system information and basic usage statistics"
+msgstr "Detaillierte Systeminformationen"
+
+#: core/feedbackconfiguicontroller.cpp:144
+#, fuzzy
+#| msgctxt "KUserFeedback::FeedbackConfigUiController|"
+#| msgid "Detailed system information"
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Detailed system information and usage statistics"
+msgstr "Detaillierte Systeminformationen"
+
+#: core/feedbackconfiguicontroller.cpp:156
+#: core/feedbackconfiguicontroller.cpp:179
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Don't share anything"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:160
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share basic system information such as the version of the application and "
+"the operating system"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:164
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share basic system information and basic statistics on how often you use the "
+"application"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:168
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share basic statistics on how often you use the application, as well as more "
+"detailed information about your system"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:172
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share detailed system information and statistics on how often individual "
+"features of the application are used."
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:183
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share basic system information such as the version of %1 and and the "
+"operating system"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:187
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share basic system information and basic statistics on how often you use %1"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:191
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share basic statistics on how often you use %1, as well as more detailed "
+"information about your system"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:195
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Share detailed system information and statistics on how often individual "
+"features of %1 are used."
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:248
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Don't participate in usability surveys"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:252
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Participate in surveys about the application not more than four times a year"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:256
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Participate in surveys about the application whenever one is available (they "
+"can be deferred or skipped)"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:263
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Don't participate in usability surveys about %1"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:267
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid "Participate in surveys about %1 not more than four times a year"
+msgstr ""
+
+#: core/feedbackconfiguicontroller.cpp:271
+#, qt-format
+msgctxt "KUserFeedback::FeedbackConfigUiController|"
+msgid ""
+"Participate in surveys about %1 whenever one is available (they can be "
+"deferred or skipped)"
+msgstr ""
+
+#: core/localeinfosource.cpp:38
+msgctxt "KUserFeedback::LocaleInfoSource|"
+msgid "The current region and language settings."
+msgstr "Die aktuellen Einstellungen für Land und Sprache."
+
+#: core/localeinfosource.cpp:52
+msgctxt "KUserFeedback::LocaleInfoSource|"
+msgid "Locale information"
+msgstr "Spracheninformation"
+
+#: core/openglinfosource.cpp:44
+msgctxt "KUserFeedback::OpenGLInfoSource|"
+msgid "Information about type, version and vendor of the OpenGL stack."
+msgstr ""
+
+#: core/openglinfosource.cpp:110
+msgctxt "KUserFeedback::OpenGLInfoSource|"
+msgid "OpenGL information"
+msgstr "Informationen zu OpenGL"
+
+#: core/platforminfosource.cpp:38
+msgctxt "KUserFeedback::PlatformInfoSource|"
+msgid "Type and version of the operating system."
+msgstr "Typ und Version des Betriebssystems"
+
+#: core/platforminfosource.cpp:75
+msgctxt "KUserFeedback::PlatformInfoSource|"
+msgid "Platform information"
+msgstr "Plattform-Information"
+
+#: core/qpainfosource.cpp:38
+msgctxt "KUserFeedback::QPAInfoSource|"
+msgid "The Qt platform abstraction plugin."
+msgstr "Das Qt-Plattform-Abstraktionsmodul."
+
+#: core/qpainfosource.cpp:50
+msgctxt "KUserFeedback::QPAInfoSource|"
+msgid "QPA information"
+msgstr "QPA-Information"
+
+#: core/qtversionsource.cpp:37
+msgctxt "KUserFeedback::QtVersionSource|"
+msgid "The Qt version used by this application."
+msgstr "Die Qt-Version dieser Anwendung."
+
+#: core/qtversionsource.cpp:49
+msgctxt "KUserFeedback::QtVersionSource|"
+msgid "Qt version information"
+msgstr "Qt-Versionsinformation"
+
+#: core/screeninfosource.cpp:39
+msgctxt "KUserFeedback::ScreenInfoSource|"
+msgid "Size and resolution of all connected screens."
+msgstr "Größe und Auflösung aller angeschlossenen Bildschirme."
+
+#: core/screeninfosource.cpp:57
+msgctxt "KUserFeedback::ScreenInfoSource|"
+msgid "Screen parameters"
+msgstr "Bildschirmparameter"
+
+#: core/startcountsource.cpp:48
+msgctxt "KUserFeedback::StartCountSource|"
+msgid "How often the application has been started."
+msgstr "Wie oft die Anwendung gestartet wurde."
+
+#: core/startcountsource.cpp:63
+msgctxt "KUserFeedback::StartCountSource|"
+msgid "Launches count"
+msgstr ""
+
+#: core/usagetimesource.cpp:48
+msgctxt "KUserFeedback::UsageTimeSource|"
+msgid "The total amount of time the application has been used."
+msgstr "Die Gesamtzeit, in der diese Anwendung benutzt wurde."
+
+#: core/usagetimesource.cpp:63
+msgctxt "KUserFeedback::UsageTimeSource|"
+msgid "Usage time"
+msgstr "Benutzungszeit"
+
+#: widgets/auditlogbrowserdialog.cpp:45
+msgctxt "KUserFeedback::AuditLogBrowserDialog|"
+msgid "Delete Log"
+msgstr "Protokoll löschen"
+
+#: widgets/auditlogbrowserdialog.ui:14
+msgctxt "KUserFeedback::AuditLogBrowserDialog|"
+msgid "Dialog"
+msgstr "Dialog"
+
+#: widgets/auditlogbrowserdialog.ui:22
+msgctxt "KUserFeedback::AuditLogBrowserDialog|"
+msgid "Da&ta Submission:"
+msgstr ""
+
+#: widgets/feedbackconfigdialog.cpp:49
+msgctxt "KUserFeedback::FeedbackConfigDialog|"
+msgid "Contribute!"
+msgstr "Mitmachen"
+
+#: widgets/feedbackconfigdialog.cpp:50
+msgctxt "KUserFeedback::FeedbackConfigDialog|"
+msgid "No, I do not want to contribute."
+msgstr "Nein, ich möchte mich nicht beteiligen."
+
+#: widgets/feedbackconfigdialog.ui:14
+msgctxt "KUserFeedback::FeedbackConfigDialog|"
+msgid "Feedback Settings"
+msgstr ""
+
+#: widgets/feedbackconfigwidget.ui:17
+msgctxt "KUserFeedback::FeedbackConfigWidget|"
+msgid ""
+"You can help the development of this software by contributing information on "
+"how you use it, so the developers can focus on things that matter to you. "
+"Contributing this information is optional and entirely anonymous. We never "
+"collect your personal data, files you use, websites you visit, or "
+"information that could identify you."
+msgstr ""
+
+#: widgets/feedbackconfigwidget.ui:33
+msgctxt "KUserFeedback::FeedbackConfigWidget|"
+msgid "Contribute Statistics"
+msgstr ""
+
+#: widgets/feedbackconfigwidget.ui:107
+msgctxt "KUserFeedback::FeedbackConfigWidget|"
+msgid "TextLabel"
+msgstr "Textfeld"
+
+#: widgets/feedbackconfigwidget.ui:124
+msgctxt "KUserFeedback::FeedbackConfigWidget|"
+msgid "Show the raw data that is going to be shared."
+msgstr ""
+
+#: widgets/feedbackconfigwidget.ui:137
+msgctxt "KUserFeedback::FeedbackConfigWidget|"
+msgid "<a href=\"auditLog\">View previously submitted data...</a>"
+msgstr "<a href=\"auditLog\">Früher übertragene Daten anzeigen ...</a>"
+
+#: widgets/feedbackconfigwidget.ui:150
+msgctxt "KUserFeedback::FeedbackConfigWidget|"
+msgid "Participate in Surveys"
+msgstr ""
+
+#: widgets/notificationpopup.cpp:84
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid "Help us make this application better!"
+msgstr ""
+
+#: widgets/notificationpopup.cpp:85
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid ""
+"You can help us improving this application by sharing statistics and "
+"participate in surveys."
+msgstr ""
+
+#: widgets/notificationpopup.cpp:87
+#, qt-format
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid "Help us make %1 better!"
+msgstr ""
+
+#: widgets/notificationpopup.cpp:88
+#, qt-format
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid ""
+"You can help us improving %1 by sharing statistics and participate in "
+"surveys."
+msgstr ""
+
+#: widgets/notificationpopup.cpp:90
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid "Contribute..."
+msgstr "Mitmachen ..."
+
+#: widgets/notificationpopup.cpp:101
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid "We are looking for your feedback!"
+msgstr ""
+
+#: widgets/notificationpopup.cpp:103
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid ""
+"We would like a few minutes of your time to provide feedback about this "
+"application in a survey."
+msgstr ""
+
+#: widgets/notificationpopup.cpp:105
+#, qt-format
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid ""
+"We would like a few minutes of your time to provide feedback about %1 in a "
+"survey."
+msgstr ""
+
+#: widgets/notificationpopup.cpp:106
+msgctxt "KUserFeedback::NotificationPopup|"
+msgid "Participate"
+msgstr ""
+
+#: widgets/styleinfosource.cpp:40
+msgctxt "KUserFeedback::StyleInfoSource|"
+msgid ""
+"The widget style used by the application, and information about the used "
+"color scheme."
+msgstr ""
+
+#: widgets/styleinfosource.cpp:54
+msgctxt "KUserFeedback::StyleInfoSource|"
+msgid "Application style"
+msgstr "Anwendungs-Stil"

@@ -1,0 +1,8 @@
+include(KDEFrameworkCompilerSettings)
+add_subdirectory(core)
+if(TARGET Qt5::Widgets)
+  add_subdirectory(widgets)
+endif()
+if(TARGET Qt5::Qml)
+  add_subdirectory(qml)
+endif()
